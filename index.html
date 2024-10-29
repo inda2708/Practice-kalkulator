@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Aritmatika Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="bg"></section>
+
+    <div class="calculator">
+        <h1>Aritmatika</h1>
+        <input type="number" id="Angka1" placeholder="Masukkan angka pertama">
+        <input type="number" id="Angka2" placeholder="Masukkan angka kedua">
+
+        <div class="buttons">
+            <button onclick="hitung('tambah')">+</button>
+            <button onclick="hitung('kurang')">-</button>
+            <button onclick="hitung('kali')">*</button>
+            <button onclick="hitung('bagi')">/</button>
+        </div>
+
+        <h2>Hasil: <span id="Hasil"></span></h2>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
